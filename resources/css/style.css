@@ -20,7 +20,7 @@ header {
   background-color: black;
   width: 100%;
   color: white;
-  align-content: center;
+  align-items: center;
   font-size: 1rem;
   padding-left: 9rem;
   padding-top: .66rem;
@@ -76,8 +76,6 @@ h4 {
    align-content: center;
    text-align: center;
    justify-content: space-around;
-   flex-grow: 1;
-
  }
 
  nav a {
@@ -85,6 +83,10 @@ h4 {
    text-decoration: none;
    padding-top: .75rem;
    padding-bottom: .75rem;
+ }
+
+ .menu {
+   display: none;
  }
 
 
@@ -98,7 +100,7 @@ h4 {
 
 .products {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 3rem;
 
 }
@@ -155,5 +157,9 @@ footer {
   color: white;
   height: 5rem;
   text-align: left;
+
+}
+
+@media only screen and (max-width: 1024px){
 
 }
